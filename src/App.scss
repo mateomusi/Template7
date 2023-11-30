@@ -1,0 +1,19 @@
+$max-width: 1185px;
+$frank: 'Frank Ruhl Libre', serif;
+$lato: 'Lato', sans-serif;
+$color-white: #F9F1F0;
+$color-black: #140005;
+*,
+body,
+body::before,
+body::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.animate__animated{
+    overflow: hidden;
+}
